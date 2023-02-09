@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node pkg="mdek_uwb_driver" name="uwb_driver_node" type="mdek_uwb_driver_node">
+        <param name="uwb_pub_topic" value="uwb"   />
+        <param name="device_name" value="/dev/ttyACM0"  />
+    </node>
+</launch>
